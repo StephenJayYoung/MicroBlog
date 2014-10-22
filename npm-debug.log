@@ -1,0 +1,92 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'admit-one-ember' ]
+2 info using npm@1.4.25
+3 info using node@v0.10.31
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json AdmitOneProject@0.1.0 No description
+6 warn package.json AdmitOneProject@0.1.0 No repository field.
+7 warn package.json AdmitOneProject@0.1.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'admit-one-ember', null ]
+10 verbose cache add name=undefined spec="admit-one-ember" args=["admit-one-ember",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'admit-one-ember',
+11 verbose parsed url   path: 'admit-one-ember',
+11 verbose parsed url   href: 'admit-one-ember' }
+12 silly lockFile 225c3b17-admit-one-ember admit-one-ember
+13 verbose lock admit-one-ember /Users/stephenyoung/.npm/225c3b17-admit-one-ember.lock
+14 silly lockFile 225c3b17-admit-one-ember admit-one-ember
+15 silly lockFile 225c3b17-admit-one-ember admit-one-ember
+16 verbose addNamed [ 'admit-one-ember', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 33d7b193-admit-one-ember admit-one-ember@
+19 verbose lock admit-one-ember@ /Users/stephenyoung/.npm/33d7b193-admit-one-ember.lock
+20 silly addNameRange { name: 'admit-one-ember', range: '*', hasData: false }
+21 verbose request where is /admit-one-ember
+22 verbose request registry https://registry.npmjs.org/
+23 verbose request id 5ee5a3a37820b522
+24 verbose url raw /admit-one-ember
+25 verbose url resolving [ 'https://registry.npmjs.org/', './admit-one-ember' ]
+26 verbose url resolved https://registry.npmjs.org/admit-one-ember
+27 verbose request where is https://registry.npmjs.org/admit-one-ember
+28 info trying registry request attempt 1 at 09:59:04
+29 http GET https://registry.npmjs.org/admit-one-ember
+30 http 404 https://registry.npmjs.org/admit-one-ember
+31 verbose headers { date: 'Wed, 22 Oct 2014 16:59:04 GMT',
+31 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'cache-control': 'max-age=0',
+31 verbose headers   'content-length': '52',
+31 verbose headers   'accept-ranges': 'bytes',
+31 verbose headers   via: '1.1 varnish',
+31 verbose headers   age: '0',
+31 verbose headers   'x-served-by': 'cache-sjc3126-SJC',
+31 verbose headers   'x-cache': 'MISS',
+31 verbose headers   'x-cache-hits': '0',
+31 verbose headers   'x-timer': 'S1413997144.683918,VS0,VE97',
+31 verbose headers   'keep-alive': 'timeout=10, max=50',
+31 verbose headers   connection: 'Keep-Alive' }
+32 silly registry.get cb [ 404,
+32 silly registry.get   { date: 'Wed, 22 Oct 2014 16:59:04 GMT',
+32 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+32 silly registry.get     'content-type': 'application/json',
+32 silly registry.get     'cache-control': 'max-age=0',
+32 silly registry.get     'content-length': '52',
+32 silly registry.get     'accept-ranges': 'bytes',
+32 silly registry.get     via: '1.1 varnish',
+32 silly registry.get     age: '0',
+32 silly registry.get     'x-served-by': 'cache-sjc3126-SJC',
+32 silly registry.get     'x-cache': 'MISS',
+32 silly registry.get     'x-cache-hits': '0',
+32 silly registry.get     'x-timer': 'S1413997144.683918,VS0,VE97',
+32 silly registry.get     'keep-alive': 'timeout=10, max=50',
+32 silly registry.get     connection: 'Keep-Alive' } ]
+33 silly lockFile 33d7b193-admit-one-ember admit-one-ember@
+34 silly lockFile 33d7b193-admit-one-ember admit-one-ember@
+35 error 404 404 Not Found: admit-one-ember
+35 error 404
+35 error 404 'admit-one-ember' is not in the npm registry.
+35 error 404 You should bug the author to publish it
+35 error 404 It was specified as a dependency of 'AdmitOneProject'
+35 error 404
+35 error 404 Note that you can also install from a
+35 error 404 tarball, folder, or http url, or git url.
+36 error System Darwin 13.3.0
+37 error command "node" "/usr/local/bin/npm" "install" "--save" "admit-one-ember"
+38 error cwd /Users/stephenyoung/Desktop/AllPCS/AdmitOneProject
+39 error node -v v0.10.31
+40 error npm -v 1.4.25
+41 error code E404
+42 verbose exit [ 1, true ]
