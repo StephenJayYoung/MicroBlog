@@ -2,6 +2,7 @@
 
 var App = window.App = Ember.Application.create();
 
+//TODO: This is not working.
 // Ember.AdmitOne.setup();
 
 App.Router.map(function() {
@@ -16,6 +17,7 @@ App.ApplicationAdapter = DS.RESTAdapter.extend({
 });
 
 // authenticate any route
+// TODO: AuthenticatedRouteMixin is not working.
 App.ProfileRoute = Ember.Route.extend(Ember.AdmitOne.AuthenticatedRouteMixin, {
 });
 
