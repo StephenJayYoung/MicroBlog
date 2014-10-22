@@ -9,6 +9,10 @@ var compression = require('compression');
 var favicon = require('serve-favicon');
 var config = require('./config');
 
+var admit = require('admit-one')('bookshelf', {
+  bookshelf: { modelClass: User }
+});
+
 var app = express();
 var resources = express();
 resources.use(express.static(config.public));
